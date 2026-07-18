@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coca-Cola HBC Connect — Power Your Business</title>
+<meta name="description" content="Join 10,000+ business partners ordering the world's favourite beverages with Coca-Cola HBC Connect. Sign up in minutes, first delivery in 48 hours.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='46' fill='%23E4002B'/><path d='M20 58 Q40 38 58 52 T88 46' stroke='white' stroke-width='7' fill='none' stroke-linecap='round'/></svg>">
+</head>
+<body>
+
+<!-- ══════════════ INTRO CURTAIN ══════════════ -->
+<div class="curtain" id="curtain" aria-hidden="true">
+  <svg class="curtain__ribbon" viewBox="0 0 1440 320" preserveAspectRatio="none">
+    <path d="M0,160 C240,60 480,260 720,160 C960,60 1200,260 1440,160" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round"/>
+  </svg>
+</div>
+
+<!-- ══════════════ NAV ══════════════ -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="nav__logo" href="#top" aria-label="Coca-Cola HBC Connect home">
+      <svg class="nav__mark" viewBox="0 0 100 100" aria-hidden="true">
+        <circle cx="50" cy="50" r="46"/>
+        <path d="M20 58 Q40 38 58 52 T88 46"/>
+      </svg>
+      <span class="nav__word">Coca&#8209;Cola&nbsp;HBC <em>Connect</em></span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#how">How it works</a>
+      <a href="#support">Support</a>
+      <a href="#finder">Starter packs</a>
+      <a href="#stories">Stories</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <div class="nav__actions">
+      <button class="lang" type="button" aria-label="Change language, current English">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.7 3.8 9S14.5 18.4 12 21c-2.5-2.6-3.8-5.7-3.8-9S9.5 5.6 12 3z"/></svg>
+        EN
+      </button>
+      <a class="btn btn--ghost btn--sm" href="#">Log in</a>
+      <a class="btn btn--red btn--sm magnetic" href="#join">Join now</a>
+    </div>
+    <button class="nav__burger" id="burger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#how">How it works</a>
+  <a href="#support">Support</a>
+  <a href="#finder">Starter packs</a>
+  <a href="#stories">Stories</a>
+  <a href="#faq">FAQ</a>
+  <div class="mobile-menu__cta">
+    <a class="btn btn--ghost" href="#">Log in</a>
+    <a class="btn btn--red" href="#join">Join now</a>
+  </div>
+</div>
+
+<main id="top">
+
+<!-- ══════════════ HERO ══════════════ -->
+<section class="hero" id="hero">
+  <div class="hero__media" data-parallax="0.25">
+    <video class="hero__video" id="heroVideo" autoplay muted loop playsinline poster="assets/hero.jpg">
+      <source src="assets/hero.mp4" type="video/mp4">
+    </video>
+    <img class="hero__img" src="assets/hero.jpg" alt="" aria-hidden="true">
+  </div>
+  <div class="hero__tint" aria-hidden="true"></div>
+  <div class="hero__bubbles" aria-hidden="true"></div>
+
+  <div class="hero__content">
+    <p class="eyebrow eyebrow--light hero__reveal">The B2B ordering portal of Coca&#8209;Cola HBC</p>
+    <h1 class="hero__title">
+      <span class="hero__line"><span>Power your</span></span>
+      <span class="hero__line"><span>business with</span></span>
+      <span class="hero__line hero__line--red"><span>Connect<svg class="hero__stroke" viewBox="0 0 420 46" preserveAspectRatio="none" aria-hidden="true"><path d="M6 34 C110 10 220 44 300 24 C350 12 395 20 414 14" fill="none"/></svg></span></span>
+    </h1>
+    <p class="hero__sub hero__reveal">Order the world's favourite beverages for your café, kiosk, hotel or restaurant — in minutes, with partner pricing and delivery in as little as 48 hours.</p>
+    <div class="hero__cta hero__reveal">
+      <a class="btn btn--red btn--lg magnetic" href="#join">Join us now
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>
+      </a>
+      <a class="btn btn--outline-light btn--lg" href="#how">See how it works</a>
+    </div>
+    <dl class="hero__stats hero__reveal">
+      <div class="stat">
+        <dt class="stat__num" data-count="10000" data-suffix="+">0</dt>
+        <dd>Active partners</dd>
+      </div>
+      <div class="stat">
+        <dt class="stat__num" data-count="2" data-suffix="M+">0</dt>
+        <dd>Orders every year</dd>
+      </div>
+      <div class="stat">
+        <dt class="stat__num" data-count="99.8" data-decimals="1" data-suffix="%">0</dt>
+        <dd>On-time delivery</dd>
+      </div>
+    </dl>
+  </div>
+
+  <a class="hero__scroll" href="#brands" aria-label="Scroll to content">
+    <span class="hero__mouse"><span></span></span>
+    Scroll
+  </a>
+
+  <svg class="hero__wave" viewBox="0 0 1440 180" preserveAspectRatio="none" aria-hidden="true">
+    <path class="hero__wave-back" d="M0,120 C260,30 560,180 880,110 C1120,60 1320,90 1440,60 L1440,180 L0,180 Z"/>
+    <path class="hero__wave-front" d="M0,150 C300,70 620,190 940,130 C1180,86 1340,120 1440,96 L1440,180 L0,180 Z"/>
+  </svg>
+</section>
+
+<!-- ══════════════ BRAND MARQUEE ══════════════ -->
+<section class="brands" id="brands" aria-label="Brands in the portfolio">
+  <div class="marquee" data-speed="34">
+    <div class="marquee__track">
+      <span>Coca&#8209;Cola</span><i>●</i><span>Fanta</span><i>●</i><span>Sprite</span><i>●</i><span>Schweppes</span><i>●</i><span>FuzeTea</span><i>●</i><span>Powerade</span><i>●</i><span>Costa Coffee</span><i>●</i><span>Monster</span><i>●</i>
+      <span>Coca&#8209;Cola</span><i>●</i><span>Fanta</span><i>●</i><span>Sprite</span><i>●</i><span>Schweppes</span><i>●</i><span>FuzeTea</span><i>●</i><span>Powerade</span><i>●</i><span>Costa Coffee</span><i>●</i><span>Monster</span><i>●</i>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ HOW IT WORKS ══════════════ -->
+<section class="how section" id="how">
+  <div class="container">
+    <div class="section__head reveal">
+      <p class="eyebrow">How it works</p>
+      <h2 class="section__title">From signup to your<br>first crate in <span class="tick">48&nbsp;hours</span></h2>
+      <p class="section__sub">Three steps. No paperwork marathons, no phone tag — just a stocked fridge.</p>
+    </div>
+
+    <div class="steps">
+      <article class="step reveal" data-step="1">
+        <div class="step__media" data-tilt>
+          <img src="assets/step-account.jpg" alt="Café owner creating her Connect account on a tablet" loading="lazy">
+          <span class="step__num">01</span>
+        </div>
+        <h3>Create your account</h3>
+        <p>Sign up in minutes with your business details and get instant access to the full catalog with exclusive partner pricing.</p>
+        <a class="link-arrow" href="#join">Join now
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>
+        </a>
+      </article>
+
+      <article class="step reveal" data-step="2">
+        <div class="step__media" data-tilt>
+          <img src="assets/step-browse.jpg" alt="Browsing the beverage catalog in the Connect portal" loading="lazy">
+          <span class="step__num">02</span>
+        </div>
+        <h3>Browse &amp; order</h3>
+        <p>Pick from 200+ beverages, reorder favourites in one tap and unlock volume deals built for your business size.</p>
+        <a class="link-arrow" href="#finder">Explore products
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>
+        </a>
+      </article>
+
+      <article class="step reveal" data-step="3">
+        <div class="step__media" data-tilt>
+          <img src="assets/step-delivery.jpg" alt="Courier handing a crate of bottles to a shop owner" loading="lazy">
+          <span class="step__num">03</span>
+        </div>
+        <h3>Fast delivery</h3>
+        <p>Track every order in real time. 99.8% of deliveries arrive on schedule — most within 48 hours of ordering.</p>
+        <a class="link-arrow" href="#join">Order now
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>
+        </a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ SUPPORT ══════════════ -->
+<section class="support section" id="support">
+  <div class="container support__grid">
+    <div class="support__copy reveal">
+      <p class="eyebrow">Never on your own</p>
+      <h2 class="section__title">Ongoing support, <span class="tick">24/7</span></h2>
+
+      <div class="tabs" role="tablist" aria-label="Ways we help">
+        <button class="tab is-active" role="tab" aria-selected="true" data-tab="support">Support</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="learn">Learn</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="grow">Grow</button>
+      </div>
+
+      <div class="tabpanes">
+        <p class="tabpane is-active" data-pane="support">We're here around the clock, 24 hours a day, 7 days a week. A dedicated account team guides you through every step — from your first login to your busiest season — so you never feel alone as you progress.</p>
+        <p class="tabpane" data-pane="learn">Free merchandising playbooks, cooler-placement guides and category insights from the world's biggest beverage company — practical lessons you can apply the same day.</p>
+        <p class="tabpane" data-pane="grow">Quarterly business reviews, promo calendars and data on what sells around you, so every reorder earns a little more than the last one.</p>
+      </div>
+
+      <a class="link-arrow" href="#faq">Contact us
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>
+      </a>
+    </div>
+
+    <div class="support__visual reveal" data-tilt>
+      <img src="assets/support.jpg" alt="Coca-Cola HBC support specialist with a headset, ready to help" loading="lazy">
+      <div class="support__badge">
+        <strong>24/7</strong>
+        <span>real humans,<br>real answers</span>
+      </div>
+      <div class="support__pulse" aria-hidden="true"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ RED CTA RIBBON ══════════════ -->
+<section class="band" id="join">
+  <svg class="band__curve band__curve--top" viewBox="0 0 1440 110" preserveAspectRatio="none" aria-hidden="true"><path d="M0,0 L1440,0 L1440,20 C1080,105 360,105 0,20 Z"/></svg>
+  <div class="band__ribbons" aria-hidden="true" data-parallax="0.15">
+    <svg viewBox="0 0 1440 600" preserveAspectRatio="none">
+      <path d="M-40,420 C280,300 520,540 780,420 C1040,300 1240,480 1480,380" fill="none" stroke="rgba(255,255,255,.14)" stroke-width="90" stroke-linecap="round"/>
+      <path d="M-40,220 C300,120 560,320 820,210 C1080,110 1260,270 1480,180" fill="none" stroke="rgba(0,0,0,.10)" stroke-width="60" stroke-linecap="round"/>
+    </svg>
+  </div>
+  <div class="container band__inner">
+    <h2 class="band__title reveal">Start your partnership today</h2>
+    <p class="band__sub reveal">Join 10,000+ business partners and experience premium beverage distribution with dedicated support and reliable delivery.</p>
+    <ul class="band__feats reveal">
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l7 4v5c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V7z"/></svg>Secure ordering</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 13a8 8 0 0 1 16 0M4 13v4a2 2 0 0 0 2 2h1v-6H6m14 0h-1v6h1a2 2 0 0 0 2-2v-4h-2z"/></svg>24/7 support</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v3m0 12v3m9-9h-3M6 12H3m14.5-5.5-2 2m-7 7-2 2m11 0-2-2m-7-7-2-2"/></svg>No setup fees</li>
+    </ul>
+    <a class="btn btn--white btn--lg magnetic reveal" href="#finder">Join us now
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>
+    </a>
+  </div>
+  <svg class="band__curve band__curve--bottom" viewBox="0 0 1440 110" preserveAspectRatio="none" aria-hidden="true"><path d="M0,110 L1440,110 L1440,90 C1080,5 360,5 0,90 Z"/></svg>
+</section>
+
+<!-- ══════════════ PACK FINDER ══════════════ -->
+<section class="finder section" id="finder">
+  <div class="container">
+    <div class="section__head reveal">
+      <p class="eyebrow">Pack finder</p>
+      <h2 class="section__title">Find your <span class="tick">perfect</span> starter pack</h2>
+      <p class="section__sub">Tell us a little about your business and watch the recommendation update live.</p>
+    </div>
+
+    <div class="finder__card reveal">
+      <div class="finder__form">
+        <h3 class="finder__q">What is your business type?</h3>
+        <div class="biztypes" role="radiogroup" aria-label="Business type">
+          <button class="biztype is-active" data-biz="kiosk" role="radio" aria-checked="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 10 5 5h14l1 5M4 10v9h16v-9M4 10h16M9 19v-5h6v5"/></svg>
+            Kiosk
+          </button>
+          <button class="biztype" data-biz="cafe" role="radio" aria-checked="false">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 8h12v6a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4zm12 1h2.5a2 2 0 0 1 0 4H16M6 3.5v2M9.5 3.5v2M13 3.5v2"/></svg>
+            Café
+          </button>
+          <button class="biztype" data-biz="hotel" role="radio" aria-checked="false">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 21V5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v16M2 21h20M9 7h2m2 0h2M9 11h2m2 0h2M9 15h2m2 0h2"/></svg>
+            Hotel
+          </button>
+          <button class="biztype" data-biz="restaurant" role="radio" aria-checked="false">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M7 3v8m-2.5-8v5a2.5 2.5 0 0 0 5 0V3M7 11v10M17 3c-1.7 1.5-2.5 3.6-2.5 6V12H17m0-9v18"/></svg>
+            Restaurant
+          </button>
+        </div>
+
+        <div class="slider-row">
+          <div class="slider-row__label"><span>Store size</span><output id="outSize">2,000 sq ft</output></div>
+          <input type="range" id="inSize" min="500" max="10000" step="100" value="2000" aria-label="Store size in square feet">
+          <div class="slider-row__scale"><span>500</span><span>10,000</span></div>
+        </div>
+
+        <div class="slider-row">
+          <div class="slider-row__label"><span>Daily customers</span><output id="outCust">300</output></div>
+          <input type="range" id="inCust" min="50" max="2000" step="10" value="300" aria-label="Daily customers">
+          <div class="slider-row__scale"><span>50</span><span>2,000</span></div>
+        </div>
+
+        <div class="slider-row">
+          <div class="slider-row__label"><span>Monthly budget</span><output id="outBudget">$1,500</output></div>
+          <input type="range" id="inBudget" min="500" max="5000" step="50" value="1500" aria-label="Monthly budget in dollars">
+          <div class="slider-row__scale"><span>$500</span><span>$5,000</span></div>
+        </div>
+
+        <div class="hours">
+          <p class="hours__label">Peak hours</p>
+          <div class="hours__chips">
+            <button class="chip" data-hour="morning">Morning</button>
+            <button class="chip is-active" data-hour="lunch">Lunch</button>
+            <button class="chip" data-hour="afternoon">Afternoon</button>
+            <button class="chip" data-hour="evening">Evening</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="finder__result">
+        <div class="finder__result-head">
+          <h3>Recommended bundles</h3>
+          <p>Popular first orders from businesses like yours</p>
+        </div>
+        <ol class="bundles" id="bundles"></ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ PACKS ══════════════ -->
+<section class="packs section" id="packs">
+  <div class="container">
+    <div class="section__head reveal">
+      <p class="eyebrow">Ready-made</p>
+      <h2 class="section__title">New partners also order <span class="tick">these packs</span></h2>
+      <p class="section__sub">Pre-configured packages designed for different business models.</p>
+    </div>
+
+    <div class="packgrid">
+      <article class="pack reveal" data-tilt>
+        <div class="pack__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M7 3v8m-2.5-8v5a2.5 2.5 0 0 0 5 0V3M7 11v10M17 3c-1.7 1.5-2.5 3.6-2.5 6V12H17m0-9v18"/></svg>
+        </div>
+        <h3>Casual Dining</h3>
+        <p class="pack__desc">Ideal for relaxed meals and extended visits</p>
+        <ul class="pack__list">
+          <li>Coca&#8209;Cola — 12-pack bottles</li>
+          <li>Sprite — 12-pack bottles</li>
+          <li>Fanta Orange — 12-pack bottles</li>
+          <li>Powerade — 6-pack bottles</li>
+        </ul>
+        <div class="pack__price"><strong>$129</strong><span>/month, starting at</span></div>
+        <a class="btn btn--red btn--block" href="#join">Order now</a>
+      </article>
+
+      <article class="pack pack--hot reveal" data-tilt>
+        <span class="pack__flag">Most popular</span>
+        <div class="pack__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 10 5 5h14l1 5M4 10v9h16v-9M4 10h16M9 19v-5h6v5"/></svg>
+        </div>
+        <h3>Quick Service Restaurant</h3>
+        <p class="pack__desc">Perfect for high turnover &amp; fast service</p>
+        <ul class="pack__list">
+          <li>Coca&#8209;Cola — 24-pack cans</li>
+          <li>Sprite — 24-pack cans</li>
+          <li>Fanta Orange — 24-pack cans</li>
+          <li>Powerade — 12-pack bottles</li>
+        </ul>
+        <div class="pack__price"><strong>$89</strong><span>/month, starting at</span></div>
+        <a class="btn btn--white btn--block" href="#join">Get your pack</a>
+      </article>
+
+      <article class="pack reveal" data-tilt>
+        <div class="pack__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 8h12v6a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4zm12 1h2.5a2 2 0 0 1 0 4H16M6 3.5v2M9.5 3.5v2M13 3.5v2"/></svg>
+        </div>
+        <h3>Convenience Store</h3>
+        <p class="pack__desc">Perfect for grab-and-go customers</p>
+        <ul class="pack__list">
+          <li>Coca&#8209;Cola — 6-pack cans</li>
+          <li>Sprite — 6-pack cans</li>
+          <li>Fanta Orange — 6-pack cans</li>
+          <li>Powerade — 4-pack bottles</li>
+        </ul>
+        <div class="pack__price"><strong>$59</strong><span>/month, starting at</span></div>
+        <a class="btn btn--red btn--block" href="#join">Shop today</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ NETWORK ══════════════ -->
+<section class="network section" id="network">
+  <div class="network__bubbles" aria-hidden="true" data-parallax="0.12"></div>
+  <div class="container network__inner reveal">
+    <p class="eyebrow eyebrow--light">Across 29 markets</p>
+    <h2 class="network__title">Join a network of<br><span class="network__count" data-count="10000" data-suffix="+">0</span><br>partners today</h2>
+    <p class="network__sub">Kiosks, cafés, hotels and restaurants across three continents already serve their customers through Connect.</p>
+    <a class="btn btn--red btn--lg magnetic" href="#finder">Become a partner
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>
+    </a>
+  </div>
+</section>
+
+<!-- ══════════════ TESTIMONIALS ══════════════ -->
+<section class="stories section" id="stories">
+  <div class="container section__head reveal">
+    <p class="eyebrow">Partner stories</p>
+    <h2 class="section__title">What our <span class="tick">partners</span> say</h2>
+    <p class="section__sub">Thousands of successful businesses already order with us.</p>
+  </div>
+
+  <div class="stories__rows">
+    <div class="marquee marquee--cards" data-speed="60">
+      <div class="marquee__track" id="storyRow1"></div>
+    </div>
+    <div class="marquee marquee--cards marquee--reverse" data-speed="72">
+      <div class="marquee__track" id="storyRow2"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ FAQ ══════════════ -->
+<section class="faq section" id="faq">
+  <div class="container faq__grid">
+    <div class="faq__head reveal">
+      <p class="eyebrow">FAQ</p>
+      <h2 class="section__title">Questions,<br>answered</h2>
+      <p class="section__sub">Everything you need to know about partnering with Coca&#8209;Cola HBC.</p>
+      <a class="link-arrow" href="#join">Still curious? Talk to us
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>
+      </a>
+    </div>
+
+    <div class="faq__list reveal">
+      <details class="qa" open>
+        <summary>How do I create a business account?<span class="qa__icon"></span></summary>
+        <div class="qa__body"><p>It takes less than 5 minutes. Click "Join now" and fill out the registration form with your business details. You'll receive immediate access to our product catalog and exclusive partner pricing.</p></div>
+      </details>
+      <details class="qa">
+        <summary>What are the minimum order requirements?<span class="qa__icon"></span></summary>
+        <div class="qa__body"><p>Starter packs begin at just $59/month with no minimum contract length. As you grow, volume tiers unlock better pricing automatically.</p></div>
+      </details>
+      <details class="qa">
+        <summary>How quickly can I receive my first order?<span class="qa__icon"></span></summary>
+        <div class="qa__body"><p>Most partners receive their first delivery within 48 hours of placing an order. You'll see the exact delivery window before you confirm.</p></div>
+      </details>
+      <details class="qa">
+        <summary>What payment methods do you accept?<span class="qa__icon"></span></summary>
+        <div class="qa__body"><p>Card, bank transfer and — for established partners — invoicing with flexible payment terms. All payments are processed securely inside the portal.</p></div>
+      </details>
+      <details class="qa">
+        <summary>Can I track my orders in real time?<span class="qa__icon"></span></summary>
+        <div class="qa__body"><p>Yes. Every order shows live status from warehouse to your door, with notifications at each step and a delivery ETA you can share with your team.</p></div>
+      </details>
+      <details class="qa">
+        <summary>Do you offer custom product bundles?<span class="qa__icon"></span></summary>
+        <div class="qa__body"><p>Absolutely. Use the pack finder above for a tailored recommendation, or work with your account manager to build a bundle around your menu and season.</p></div>
+      </details>
+      <details class="qa">
+        <summary>Are there any setup fees or contracts?<span class="qa__icon"></span></summary>
+        <div class="qa__body"><p>No setup fees, no long-term lock-in. You can pause or adjust your orders at any time from your dashboard.</p></div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ FINAL CTA ══════════════ -->
+<section class="final section">
+  <div class="container final__card reveal">
+    <div class="final__ribbon" aria-hidden="true">
+      <svg viewBox="0 0 900 300" preserveAspectRatio="none"><path d="M-20,210 C180,120 380,260 560,170 C700,100 810,170 920,120" fill="none" stroke="rgba(228,0,43,.10)" stroke-width="70" stroke-linecap="round"/></svg>
+    </div>
+    <h2>Join these successful businesses</h2>
+    <p>Partner with the world's leading beverage company and grow your business.</p>
+    <div class="final__cta">
+      <a class="btn btn--red btn--lg magnetic" href="#finder">Join us now
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>
+      </a>
+      <a class="btn btn--ghost btn--lg" href="#how">Explore more</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ══════════════ FOOTER ══════════════ -->
+<footer class="footer">
+  <div class="container footer__grid">
+    <div class="footer__brand">
+      <a class="nav__logo nav__logo--light" href="#top">
+        <svg class="nav__mark" viewBox="0 0 100 100" aria-hidden="true">
+          <circle cx="50" cy="50" r="46"/>
+          <path d="M20 58 Q40 38 58 52 T88 46"/>
+        </svg>
+        <span class="nav__word">Coca&#8209;Cola&nbsp;HBC <em>Connect</em></span>
+      </a>
+      <p>Premium beverage distribution for businesses of every size, across 29 markets.</p>
+    </div>
+    <nav class="footer__col" aria-label="Products">
+      <h4>Products</h4>
+      <a href="#">Sparkling soft drinks</a>
+      <a href="#">Water</a>
+      <a href="#">Juices &amp; lemonades</a>
+      <a href="#">Ice tea</a>
+      <a href="#">Energy &amp; sport</a>
+      <a href="#">Coffee &amp; hot drinks</a>
+      <a href="#">Mixers</a>
+    </nav>
+    <nav class="footer__col" aria-label="My orders">
+      <h4>My orders</h4>
+      <a href="#">Order history</a>
+      <a href="#">Invoices</a>
+      <a href="#">Saved carts</a>
+      <a href="#">Recommendations</a>
+    </nav>
+    <nav class="footer__col" aria-label="Help">
+      <h4>Help</h4>
+      <a href="#faq">FAQ</a>
+      <a href="#">Contact us</a>
+      <a href="#">Sales representative</a>
+      <a href="#">Promotions</a>
+    </nav>
+  </div>
+  <div class="footer__legal">
+    <div class="container footer__legal-inner">
+      <span>© 2026 Coca&#8209;Cola Hellenic Bottling Company. All rights reserved.</span>
+      <div class="footer__legal-links">
+        <a href="#">Terms &amp; conditions</a>
+        <a href="#">Our company</a>
+        <a href="#">Imprint</a>
+        <a href="#">Privacy &amp; cookie policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<style>.curtain{display:none!important}.reveal{opacity:1!important;transform:none!important;filter:none!important}.hero__line>span{transform:none!important;animation:none!important}.hero__reveal{opacity:1!important;animation:none!important;transform:none!important;filter:none!important}.hero__stroke path{stroke-dashoffset:0!important;animation:none!important}html{scroll-behavior:auto!important}body{transform:translateY(-0px)}</style></body>
+</html>
